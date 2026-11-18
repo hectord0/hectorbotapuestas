@@ -1,0 +1,19 @@
+[Unit]
+Description=Bot de apuestas - vigilancia 24/7
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/betting-bot
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONIOENCODING=utf-8
+Environment=DB_PATH=/var/lib/betting-bot/betting.db
+EnvironmentFile=/opt/betting-bot/.env.cloud
+ExecStart=/usr/bin/python3 -u run.py watch
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

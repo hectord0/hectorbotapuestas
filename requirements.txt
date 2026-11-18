@@ -1,0 +1,12 @@
+# Sin dependencias externas.
+#
+# Todo el proyecto usa solo la biblioteca estándar de Python 3.11+:
+#   sqlite3, urllib, json, csv, math, statistics, dataclasses, tomllib
+#
+# Eso evita problemas de wheels en Windows y hace el despliegue trivial:
+#
+#   python run.py demo
+#
+# Si en el futuro quieres acelerar el ajuste de modelos, candidatos:
+#   numpy
+#   scipy
