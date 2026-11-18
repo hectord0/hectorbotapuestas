@@ -1,0 +1,58 @@
+{
+  "events": [
+    {
+      "id": "manual-palermo-bari",
+      "sport": "soccer",
+      "league": "Serie B",
+      "home": "Palermo",
+      "away": "Bari",
+      "commence": "2026-11-18T20:00:00+00:00",
+      "extra": {"derby": true, "referee_factor": 1.15},
+      "quotes": [
+        {"bookmaker": "pinnacle", "market": "h2h", "outcome": "home", "price": 2.10},
+        {"bookmaker": "pinnacle", "market": "h2h", "outcome": "draw", "price": 3.20},
+        {"bookmaker": "pinnacle", "market": "h2h", "outcome": "away", "price": 3.70},
+        {"bookmaker": "bet365", "market": "h2h", "outcome": "home", "price": 2.05},
+        {"bookmaker": "bet365", "market": "h2h", "outcome": "draw", "price": 3.10},
+        {"bookmaker": "bet365", "market": "h2h", "outcome": "away", "price": 3.80},
+
+        {"bookmaker": "pinnacle", "market": "totals", "outcome": "over", "point": 2.5, "price": 2.05},
+        {"bookmaker": "pinnacle", "market": "totals", "outcome": "under", "point": 2.5, "price": 1.80},
+        {"bookmaker": "bet365", "market": "totals", "outcome": "over", "point": 2.5, "price": 2.10},
+        {"bookmaker": "bet365", "market": "totals", "outcome": "under", "point": 2.5, "price": 1.75},
+
+        {"bookmaker": "pinnacle", "market": "cards", "outcome": "over", "point": 4.5, "price": 1.95},
+        {"bookmaker": "pinnacle", "market": "cards", "outcome": "under", "point": 4.5, "price": 1.90},
+        {"bookmaker": "bet365", "market": "cards", "outcome": "over", "point": 4.5, "price": 2.05},
+        {"bookmaker": "bet365", "market": "cards", "outcome": "under", "point": 4.5, "price": 1.80},
+
+        {"bookmaker": "pinnacle", "market": "corners", "outcome": "over", "point": 10.5, "price": 1.95},
+        {"bookmaker": "pinnacle", "market": "corners", "outcome": "under", "point": 10.5, "price": 1.90},
+        {"bookmaker": "bet365", "market": "corners", "outcome": "over", "point": 10.5, "price": 2.00},
+        {"bookmaker": "bet365", "market": "corners", "outcome": "under", "point": 10.5, "price": 2.10},
+
+        {"bookmaker": "pinnacle", "market": "h2h_ht", "outcome": "home", "price": 2.40},
+        {"bookmaker": "pinnacle", "market": "h2h_ht", "outcome": "draw", "price": 2.20},
+        {"bookmaker": "pinnacle", "market": "h2h_ht", "outcome": "away", "price": 3.60},
+        {"bookmaker": "bet365", "market": "h2h_ht", "outcome": "home", "price": 2.50},
+        {"bookmaker": "bet365", "market": "h2h_ht", "outcome": "draw", "price": 2.15},
+        {"bookmaker": "bet365", "market": "h2h_ht", "outcome": "away", "price": 3.50}
+      ]
+    },
+    {
+      "id": "manual-alcaraz-sinner",
+      "sport": "tennis",
+      "league": "ATP Masters",
+      "home": "Alcaraz",
+      "away": "Sinner",
+      "commence": "2026-11-19T18:00:00+00:00",
+      "extra": {"best_of": 3, "surface": "dura"},
+      "quotes": [
+        {"bookmaker": "pinnacle", "market": "sets_home", "outcome": "over", "point": 0.5, "price": 1.32},
+        {"bookmaker": "pinnacle", "market": "sets_home", "outcome": "under", "point": 0.5, "price": 3.40},
+        {"bookmaker": "bet365", "market": "sets_home", "outcome": "over", "point": 0.5, "price": 1.38},
+        {"bookmaker": "bet365", "market": "sets_home", "outcome": "under", "point": 0.5, "price": 3.10}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+services:
+  betting-bot:
+    build: .
+    container_name: betting-bot
+    restart: unless-stopped
+    env_file:
+      - .env.cloud
+    environment:
+      DB_PATH: /data/betting.db
+      NOTIFIER: ntfy
+    volumes:
+      - bot-data:/data
+
+volumes:
+  bot-data:
